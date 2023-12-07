@@ -25,6 +25,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'TODO List',
+            template: './src/index.html',
             inject: 'head',
             scriptLoading: 'defer',
         })
